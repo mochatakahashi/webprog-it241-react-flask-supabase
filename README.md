@@ -19,26 +19,3 @@ my-personal-profile/
 └── README.md
 ```
 
-## Getting Started
-
-### Backend Setup
-
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate  # On Windows
-pip install -r requirements.txt
-python app.py
-```
-
-### Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-## Environment Variables
-
-Create `.env` files in both `backend/` and `frontend/` directories with your Supabase credentials.
